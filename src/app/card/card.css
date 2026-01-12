@@ -1,0 +1,6 @@
+.cards-container{padding:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem}
+.card{border:1px solid #e5e7eb;border-radius:8px;padding:8px;background:white}
+.card img{width:100%;height:140px;object-fit:cover;border-radius:6px}
+.card h3{font-size:1rem;margin:.5rem 0}
+.price{color:green;font-weight:600}

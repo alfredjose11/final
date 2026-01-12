@@ -1,0 +1,12 @@
+<div class="cards-container">
+  <div class="grid">
+    <div class="card" *ngFor="let item of products; let i = index">
+      <img [src]="item.thumbnail || item.images?.[0]" alt="{{item.title}}" />
+      <h3>{{ item.title }}</h3>
+      <p class="price">$ {{ item.price }}</p>
+      <div class="d-grid">
+        <a class="btn btn-primary" [routerLink]="['/singleview', item.id]">View</a>
+      </div>
+    </div>
+  </div>
+</div>

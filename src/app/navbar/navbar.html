@@ -1,0 +1,49 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" [routerLink]="['/']">Merchant Aisle</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/shop']">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/cart']">
+            <i class="bi bi-cart"></i> Cart
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/account']">Account</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<style>
+
+.navbar-brand {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgMR3SviWbjIabIx1L-3OoVh30Nx8vl4pQBA&s');
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+ 
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+</style>
